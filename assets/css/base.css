@@ -1,0 +1,218 @@
+:root {
+    --brightpink-color: #ffedeaff;
+    --background-color: #DB7093;
+    --text-color: #C71585;
+}
+ 
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.5rem;
+    background-color: #FFE4E1;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; /* thành phần chứa nó sẽ dàn hàng ngang */
+    flex-wrap: wrap; /* thành phần con có chiều dài lớn hơn thành phần cha sẽ xuống dòng */
+}
+
+.grid__subrow {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--brightpink-color);
+    border-radius: 4px;
+}
+
+.grid__column-1 {
+    width: 100%;
+    padding: 15px 50px 0 15px;
+}
+
+.grid__column-1 h2 {
+    color: #000;
+    opacity: 0.6;
+}
+
+.grid__column-2  {
+    width: 50%;
+    padding: 15px 50px;
+    text-align: justify;
+}
+
+.grid__infor-img {
+    padding-top: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+}
+
+.grid__column-6 {
+    width: 16.66666%;
+    text-align: left;
+    padding: 15px 5px;
+}
+
+.grid__subcolumn-6 {
+    width: 100%;
+    background-color: var(--brightpink-color);
+    border-radius: 2px;
+    padding: 3px;
+}
+
+.grid__column-6:hover {
+    border: 2px solid var(--brightpink-color) ;
+    cursor: pointer;
+}
+
+.grid__product-img,
+.grid__productdetail-img {
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 2px;
+}
+
+.grid__text-6 {
+    width: 100%;
+    text-align: left;
+    padding: 6px;
+}
+
+.grid__text-6 span {
+    float: right;
+}
+
+.grid__product-name {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #000;
+    opacity: 0.8;
+    line-height: 1.8rem;
+    height: 3.6rem;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.grid__product-price {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: var(--text-color);
+    line-height: 1.8 rem;
+    margin-top: 5px;
+}
+
+.grid__product-quantity,
+.grid__product-size,
+.grid__product-descript {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #000;
+    opacity: 0.7;
+    line-height: 1.8rem;
+    margin: 5px 0;
+}
+
+.grid__product-quantity span,
+.grid__product-size span,
+.grid__product-descript span {
+    float: right;
+}
+
+.grid__product-descript {
+    font-size: 1.4rem;
+    color: #000;
+    opacity: 0.7;
+    margin: 5px 0;
+}
+
+h1 {
+    color: #000;
+    opacity: 0.6;
+}
+
+h2 {
+    color: #000;
+    opacity: 0.6;
+    margin: 5px 0;
+}
+
+h3 {
+    color: #000;
+    opacity: 0.7;
+    margin: 0;
+}
+
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal__body {
+    background-color: var(--brightpink-color);
+    margin: auto;
+    z-index: 1;
+}
+
+.modal__inner {
+    width: 65rem;
+    height: 32rem;
+}
+
+.grid__productdetail-img {
+    width: 28rem;
+    height: 28rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.grid__subrowdetail {
+    width: 100%;
+    background-color: var(--brightpink-color);
+}
+
+.grid__rowdetail {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__columndetail-2 {
+    width: 50%;
+    padding: 20px;
+    text-align: justify;
+}
