@@ -17,10 +17,11 @@ html {
 }
 
 .sold_out {
-    float: right;
+    text-align: right;
     color: var(--background-color);
     font-size: 1.5rem;
     font-weight: 600;
+    padding: 4px;
 }
 
 .grid {
