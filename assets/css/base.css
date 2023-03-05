@@ -16,6 +16,13 @@ html {
     box-sizing: border-box;
 }
 
+.sold_out {
+    float: right;
+    color: var(--background-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
 .grid {
     width: 1200px;
     max-width: 100%;
