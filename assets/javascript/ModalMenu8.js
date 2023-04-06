@@ -88,3 +88,29 @@ btnWarmCream.onclick = function() {
 modalWarmCream.onclick = function() {
     warmCream.style.display = "none"
 }
+
+// Modal penguin01
+var modalPenguin01 = document.getElementById('penguin01');
+        
+var btnPenguin01 = document.getElementById('i__penguin01');
+
+btnPenguin01.onclick = function() {
+    penguin01.style.display = "flex"
+}
+
+modalPenguin01.onclick = function() {
+    penguin01.style.display = "none"
+}
+
+// Modal fish
+var modalFish = document.getElementById('fish');
+        
+var btnFish = document.getElementById('i__fish');
+
+btnFish.onclick = function() {
+    fish.style.display = "flex"
+}
+
+modalFish.onclick = function() {
+    fish.style.display = "none"
+}
