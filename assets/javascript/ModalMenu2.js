@@ -1,51 +1,129 @@
-// Modal nakedCactus
-var modalNakedCactus = document.getElementById('nakedCactus');
+// Modal sunflower
+var modalSunflower = document.getElementById('sunflower');
         
-var btnNakedCactus = document.getElementById('i__nakedCactus');
+var btnSunflower = document.getElementById('i__sunflower');
 
-btnNakedCactus.onclick = function() {
-    nakedCactus.style.display = "flex"
+btnSunflower.onclick = function() {
+    sunflower.style.display = "flex"
 }
 
-modalNakedCactus.onclick = function() {
-    nakedCactus.style.display = "none"
+modalSunflower.onclick = function() {
+    sunflower.style.display = "none"
 }
-
-// Modal sinewyCactus
-var modalSinewyCactus = document.getElementById('sinewyCactus');
+      
+// Modal daisy
+var modalDaisy = document.getElementById('daisy');
         
-var btnSinewyCactus = document.getElementById('i__sinewyCactus');
+var btnDaisy = document.getElementById('i__daisy');
 
-btnSinewyCactus.onclick = function() {
-    sinewyCactus.style.display = "flex"
+btnDaisy.onclick = function() {
+    daisy.style.display = "flex"
 }
 
-modalSinewyCactus.onclick = function() {
-    sinewyCactus.style.display = "none"
+modalDaisy.onclick = function() {
+    daisy.style.display = "none"
 }
 
-// Modal bigCactus
-var modalBigCactus = document.getElementById('bigCactus');
+// Modal tuylip-1
+var modalTuylip1 = document.getElementById('tuylip1');
         
-var btnBigCactus = document.getElementById('i__bigCactus');
+var btnTuylip1 = document.getElementById('i__tuylip-1');
 
-btnBigCactus.onclick = function() {
-    bigCactus.style.display = "flex"
+btnTuylip1.onclick = function() {
+    tuylip1.style.display = "flex"
 }
 
-modalBigCactus.onclick = function() {
-    bigCactus.style.display = "none"
+modalTuylip1.onclick = function() {
+    tuylip1.style.display = "none"
 }
 
-// Modal fourLeafClovers
-var modalFourLeafClovers = document.getElementById('fourLeafClovers');
+// Modal tuylip2
+var modalTuylip2 = document.getElementById('tuylip2');
         
-var btnFourLeafClovers = document.getElementById('i__fourLeafClovers');
+var btnTuylip2 = document.getElementById('i__tuylip-2');
 
-btnFourLeafClovers.onclick = function() {
-    fourLeafClovers.style.display = "flex"
+btnTuylip2.onclick = function() {
+    tuylip2.style.display = "flex"
 }
 
-modalFourLeafClovers.onclick = function() {
-    fourLeafClovers.style.display = "none"
+modalTuylip2.onclick = function() {
+    tuylip2.style.display = "none"
 }
+
+//Modal tuylip3
+var modalTuylip3 = document.getElementById('tuylip3');
+        
+var btnTuylip3 = document.getElementById('i__tuylip-3');
+
+btnTuylip3.onclick = function() {
+    tuylip3.style.display = "flex"
+}
+
+modalTuylip3.onclick = function() {
+    tuylip3.style.display = "none"
+}
+
+//Modal minidaisy1
+var modalMinidaisy1 = document.getElementById('minidaisy1');
+        
+var btnMinidaisy1 = document.getElementById('i__minidaisy-1');
+
+btnMinidaisy1.onclick = function() {
+    minidaisy1.style.display = "flex"
+}
+
+modalMinidaisy1.onclick = function() {
+    minidaisy1.style.display = "none"
+}
+
+//Modal minidaisy2
+var modalMinidaisy2 = document.getElementById('minidaisy2');
+        
+var btnMinidaisy2 = document.getElementById('i__minidaisy-2');
+
+btnMinidaisy2.onclick = function() {
+    minidaisy2.style.display = "flex"
+}
+
+modalMinidaisy2.onclick = function() {
+    minidaisy2.style.display = "none"
+}
+
+//Modal minidaisy3
+var modalMinidaisy3 = document.getElementById('minidaisy3');
+        
+var btnMinidaisy3 = document.getElementById('i__minidaisy-3');
+
+btnMinidaisy3.onclick = function() {
+    minidaisy3.style.display = "flex"
+}
+
+modalMinidaisy3.onclick = function() {
+    minidaisy3.style.display = "none"
+}
+
+//Modal chicken
+var modalChicken = document.getElementById('chicken');
+        
+var btnChicken = document.getElementById('i__chicken');
+
+btnChicken.onclick = function() {
+    chicken.style.display = "flex"
+}
+
+modalChicken.onclick = function() {
+    chicken.style.display = "none"
+}
+
+/*Modal heart
+var modalHeart = document.getElementById('heart');
+        
+var btnHeart = document.getElementById('i__heart');
+
+btnHeart.onclick = function() {
+    heart.style.display = "flex"
+}
+
+modalHeart.onclick = function() {
+    heart.style.display = "none"
+}*/

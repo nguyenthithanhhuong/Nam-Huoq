@@ -1,129 +1,90 @@
-// Modal sunflower
-var modalSunflower = document.getElementById('sunflower');
+// Modal duck
+var modalDuck = document.getElementById('duck');
         
-var btnSunflower = document.getElementById('i__sunflower');
+var btnDuck = document.getElementById('i__duck');
 
-btnSunflower.onclick = function() {
-    sunflower.style.display = "flex"
+btnDuck.onclick = function() {
+    duck.style.display = "flex"
 }
 
-modalSunflower.onclick = function() {
-    sunflower.style.display = "none"
+modalDuck.onclick = function() {
+    duck.style.display = "none"
 }
-      
-// Modal daisy
-var modalDaisy = document.getElementById('daisy');
+
+// Modal whale
+var modalWhale = document.getElementById('whale');
         
-var btnDaisy = document.getElementById('i__daisy');
+var btnWhale = document.getElementById('i__whale');
 
-btnDaisy.onclick = function() {
-    daisy.style.display = "flex"
+btnWhale.onclick = function() {
+    whale.style.display = "flex"
 }
 
-modalDaisy.onclick = function() {
-    daisy.style.display = "none"
+modalWhale.onclick = function() {
+    whale.style.display = "none"
 }
 
-// Modal tuylip-1
-var modalTuylip1 = document.getElementById('tuylip1');
+// Modal penguin
+var modalPenguin = document.getElementById('penguin');
         
-var btnTuylip1 = document.getElementById('i__tuylip-1');
+var btnPenguin = document.getElementById('i__penguin');
 
-btnTuylip1.onclick = function() {
-    tuylip1.style.display = "flex"
+btnPenguin.onclick = function() {
+    penguin.style.display = "flex"
 }
 
-modalTuylip1.onclick = function() {
-    tuylip1.style.display = "none"
+modalPenguin.onclick = function() {
+    penguin.style.display = "none"
 }
 
-// Modal tuylip2
-var modalTuylip2 = document.getElementById('tuylip2');
+// Modal frogFat
+var modalFrogFat = document.getElementById('frogFat');
         
-var btnTuylip2 = document.getElementById('i__tuylip-2');
+var btnFrogFat = document.getElementById('i__frogFat');
 
-btnTuylip2.onclick = function() {
-    tuylip2.style.display = "flex"
+btnFrogFat.onclick = function() {
+    frogFat.style.display = "flex"
 }
 
-modalTuylip2.onclick = function() {
-    tuylip2.style.display = "none"
+modalFrogFat.onclick = function() {
+    frogFat.style.display = "none"
 }
 
-//Modal tuylip3
-var modalTuylip3 = document.getElementById('tuylip3');
+// Modal frogStress
+var modalFrogStress = document.getElementById('frogStress');
         
-var btnTuylip3 = document.getElementById('i__tuylip-3');
+var btnFrogStress = document.getElementById('i__frogStress');
 
-btnTuylip3.onclick = function() {
-    tuylip3.style.display = "flex"
+btnFrogStress.onclick = function() {
+    frogStress.style.display = "flex"
 }
 
-modalTuylip3.onclick = function() {
-    tuylip3.style.display = "none"
+modalFrogStress.onclick = function() {
+    frogStress.style.display = "none"
 }
 
-//Modal minidaisy1
-var modalMinidaisy1 = document.getElementById('minidaisy1');
+
+// Modal penguin01
+var modalPenguin01 = document.getElementById('penguin01');
         
-var btnMinidaisy1 = document.getElementById('i__minidaisy-1');
+var btnPenguin01 = document.getElementById('i__penguin01');
 
-btnMinidaisy1.onclick = function() {
-    minidaisy1.style.display = "flex"
+btnPenguin01.onclick = function() {
+    penguin01.style.display = "flex"
 }
 
-modalMinidaisy1.onclick = function() {
-    minidaisy1.style.display = "none"
+modalPenguin01.onclick = function() {
+    penguin01.style.display = "none"
 }
 
-//Modal minidaisy2
-var modalMinidaisy2 = document.getElementById('minidaisy2');
+var modalSunDoll = document.getElementById('sunDoll');
         
-var btnMinidaisy2 = document.getElementById('i__minidaisy-2');
+var btnSunDoll = document.getElementById('i__sunDoll');
 
-btnMinidaisy2.onclick = function() {
-    minidaisy2.style.display = "flex"
+btnSunDoll.onclick = function() {
+    sunDoll.style.display = "flex"
 }
 
-modalMinidaisy2.onclick = function() {
-    minidaisy2.style.display = "none"
+modalSunDoll.onclick = function() {
+    sunDoll.style.display = "none"
 }
-
-//Modal minidaisy3
-var modalMinidaisy3 = document.getElementById('minidaisy3');
-        
-var btnMinidaisy3 = document.getElementById('i__minidaisy-3');
-
-btnMinidaisy3.onclick = function() {
-    minidaisy3.style.display = "flex"
-}
-
-modalMinidaisy3.onclick = function() {
-    minidaisy3.style.display = "none"
-}
-
-//Modal chicken
-var modalChicken = document.getElementById('chicken');
-        
-var btnChicken = document.getElementById('i__chicken');
-
-btnChicken.onclick = function() {
-    chicken.style.display = "flex"
-}
-
-modalChicken.onclick = function() {
-    chicken.style.display = "none"
-}
-
-/*Modal heart
-var modalHeart = document.getElementById('heart');
-        
-var btnHeart = document.getElementById('i__heart');
-
-btnHeart.onclick = function() {
-    heart.style.display = "flex"
-}
-
-modalHeart.onclick = function() {
-    heart.style.display = "none"
-}*/
